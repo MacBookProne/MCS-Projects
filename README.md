@@ -45,3 +45,27 @@ Create a video, up to five minutes max, showing and explaining how your project 
 - Ensure the link you share is PUBLIC or UNLISTED!
 - If it is not accessible by your grader, your project will be graded based on what they can access.
 
+### Prompts for this week
+Prompts:
+- What are semantic tags in HTML, and why are they important?
+- HTML Validation: Explore the importance of HTML validation and how it can help ensure well-formed and error-free web pages. Provide a small contextual example.
+- Explore the role of meta tags in HTML for SEO. Research common meta tags such as <title>, <meta name="description">, and <meta name="keywords">. Investigate their impact on search engine rankings and best practices for optimizing them.
+- What is the difference between a block-level element and an inline element?
+
+This research assignment aims to extend your knowledge beyond the course curriculum by delving into relevant topics and familiarizing you with online resources commonly used in professional settings.
+
+As developers, conducting research is an integral part of our job. While the saying that 90% of software development is "Googling" may be an exaggeration, search engines are indeed indispensable tools in our role.
+
+A recommended resource to start your research is the JavaScript web documentation (MDN), but there are numerous other valuable sources available as well!
+
+## Instructions
+1. Choose at least two (2) of the prompts provided.
+2. Conduct research on the chosen prompts.
+3. Write at least one paragraph for each of the selected prompts.
+4. Include the URLs of the sources you used to cite your information.
+5. Submit your research results through the Learning Management System (LMS).
+
+### Please Note
+- Avoid copying and pasting text directly from the internet or any other sources.
+- Utilize the information you gather during your research as a foundation, summarizing the concepts in your own words to aid in understanding and retention.
+- Plagiarism will result in a zero for the assignment and may lead to disciplinary actions.
