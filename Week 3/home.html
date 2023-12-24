@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"> <!-- Importing css -->
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+    <header>
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <!-- Navbar Brand -->
+                <a class="navbar-brand" href="home.html">Justin O'Dea</a>
+                <!-- Toggler for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="education.html">Education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row">
+            <!-- Column for Text and Form -->
+            <div class="col-md-6">
+                <h1>Justin O'Dea</h1>
+                <h3>Frontend Developer</h3>
+                <p>Justin O'Dea is a fifth generation Montanan. He currently resides in Bozeman Montana.</p>
+
+                <!-- Experience Form -->
+                <form>
+                    <div class="form">
+                        <input class="form-input" type="checkbox" id="code1" name="code1" value="HTML">
+                        <label class="form-label" for="code1">I have Experience in HTML</label>
+                    </div>
+
+                    <div class="form">
+                        <input class="form-input" type="checkbox" id="code2" name="code2" value="CSS">
+                        <label class="form-label" for="code2">I have Experience in CSS</label>
+                    </div>
+
+                    <div class="form">
+                        <input class="form-input" type="checkbox" id="code3" name="code3" value="Python">
+                        <label class="form-label" for="code3">I have Experience in Python</label>
+                    </div>
+
+                    <button type="submit" class="btn bg-dark text-white mt-3">Submit</button>
+                </form>
+            </div>
+
+            <!-- Column for Image -->
+            <div class="col-md-6">
+                <img src="images/justin_odea.JPG" alt="Justin" class="img">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

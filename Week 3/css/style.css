@@ -1,0 +1,47 @@
+/* Heading Styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+}
+  p {
+    font-family: Arial, sans-serif; /* Paragrapgh Styles */
+    color: #074f57;
+  }
+
+body {
+  background-color: #ffffff; /* Background of site color */
+}
+
+/* Image Styles */
+.img {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+    width: 250px;
+    height: 250px;
+}
+
+/* Form Styles */
+.form input {
+    margin: 20px 0;
+}
+
+input[type="checkbox"] {
+    margin-right: 15px;
+}
+
+label {
+    margin-right: 20px;
+    color: #a73d04;
+}
+
+.form input[type="submit"] {
+    background-color: #074f57; /* Dark teal color for the submit button */
+    color: white; /* White text on the submit button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff; /* Slightly darker teal color for hover effect */
+}

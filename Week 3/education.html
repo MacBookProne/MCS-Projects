@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">     <!-- Importing css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <title>Education</title>
+</head>
+<body>
+    <!-- Navigation Links -->
+    <header>
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <!-- Navbar Brand -->
+                <a class="navbar-brand" href="#">Big Creek Agency</a>
+
+                <!-- Toggler for mobile view -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/education.html">Education</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- First Grid/Row for Headings and Education Table -->
+        <div class="row">
+            <div class="col-12">
+                <h1>Educational Experience</h1>
+                <h3>Where I attended School</h3>
+            </div>
+            <div class="col-12">
+                <!-- Education Table -->
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Institution</th>
+                <th scope="col">Education</th>
+                <th scope="col">Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Columbia Falls High School</td>
+                <td>High School Diploma</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>Montana State University</td>
+                <td>Computer Science</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>UCLA Extension</td>
+                <td>Frontend Web Coding Boot Camp</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Accelerate Montana</td>
+                <td>Tech Essentials: Salesforce Administrator</td>
+                <td>Summer 2023</td>
+            </tr>
+            <tr>
+                <td>Montana Code School</td>
+                <td>Certificate</td>
+                <td>2023</td>
+            </tr>
+        </tbody>
+    </table>
+            </div>
+        </div>
+        <!--  additional content and image row and column -->
+        <div class="row">
+            <div class="col-12">
+                <p>I got my bachelor's degree in Computer Science in 2018 from Montana State University.</p>
+            </div>
+            <div class="col-12">
+                <img src="images/montana_state.jpeg" alt="MSU" class="img">
+            </div>
+        </div>
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
